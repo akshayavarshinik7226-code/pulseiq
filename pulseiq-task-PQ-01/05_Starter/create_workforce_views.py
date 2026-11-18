@@ -1,7 +1,7 @@
 from pathlib import Path
 import duckdb
 
-DB_PATH = Path("C:/Users/Kishore/Downloads/project/05_Starter/pulseiq.duckdb")
+DB_PATH = Path(__file__).resolve().parent / "pulseiq.duckdb"
 con = duckdb.connect(str(DB_PATH))
 
 con.execute("""
