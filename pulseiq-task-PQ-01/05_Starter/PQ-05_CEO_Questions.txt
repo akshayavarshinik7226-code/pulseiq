@@ -1,0 +1,9 @@
+1. How has total employee headcount changed over time?
+
+2. Which departments have the largest and smallest workforces?
+
+3. How are employees distributed across location tiers?
+
+4. What proportion of employees work in Hybrid, Onsite, and Remote modes?
+
+5. How do the numbers of hires and exits compare during the selected date range, and what does this indicate about workforce growth?

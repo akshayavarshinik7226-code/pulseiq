@@ -1,0 +1,26 @@
+\nPULSEIQ DATA QUALITY REPORT
+==========================================================================================
+DQ-C01 | FAIL          | Bad rows: 5     | Payroll equals ledger
+DQ-C02 | PASS          | Bad rows: 0     | Ledger balanced
+DQ-C03 | FAIL          | Bad rows: 2     | Unique payroll rows
+DQ-C04 | FAIL          | Bad rows: 2     | No orphan employees
+DQ-C05 | WARNING       | Bad rows: 4     | No attendance after exit
+DQ-C06 | WARNING       | Bad rows: 4     | Unpaid leave deducted
+DQ-C07 | WARNING       | Bad rows: 1     | Invoice arithmetic
+DQ-C08 | WARNING       | Bad rows: 1     | Expense arithmetic
+DQ-C09 | WARNING       | Bad rows: 20    | Task dates sensible
+DQ-C10 | WARNING       | Bad rows: 2     | Leave dates sensible
+DQ-C11 | WARNING       | Bad rows: 5     | AI feeds fresh
+    Note: Checks prediction-date freshness only; scored_at is unavailable.
+DQ-C12 | FAIL          | Bad rows: 1     | Dimension history does not overlap
+DQ-C13 | FAIL          | Bad rows: 1     | Pipeline freshness
+    Note: Checks audit recency; the audit table does not record successful-run status.
+DQ-C14 | NOT_VERIFIED  | Bad rows: 9     | Minimum group size
+    Note: Reports missing thresholds only; enforcement in published metrics is not yet verified.
+==========================================================================================
+Checks run: 14
+Passed: 1
+Failed: 5
+Warnings: 7
+Not verified: 1
+Database results table updated: NO (report-only mode)

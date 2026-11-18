@@ -1,0 +1,30 @@
+# Python virtual environments
+
+.venv/
+venv/
+
+# Python cache files
+
+**pycache**/
+*.py[cod]
+
+# Local DuckDB databases
+
+*.duckdb
+*.duckdb.wal
+
+# Environment variables and secrets
+
+.env
+.env.*
+
+# IDE settings
+
+.vscode/
+
+# Operating system files
+
+.DS_Store
+Thumbs.db
+
+!.env.example

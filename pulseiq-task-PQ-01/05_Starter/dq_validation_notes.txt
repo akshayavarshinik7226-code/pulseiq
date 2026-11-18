@@ -1,0 +1,6 @@
+Task 3 validation
+14 checks implemented.
+C06 corrected and tested on a separate database copy.
+11 known issue categories mapped to checks C01-C12.
+Limitations: Only C06 was tested with a deliberately corrupted copy; the other checks were not individually tested. Validation comparison was category-level, not record-by-record. C11 cannot check scored_at. C13 checks audit recency only. C14 enforcement is unverified.
+Original database was not modified during the C06 test.
